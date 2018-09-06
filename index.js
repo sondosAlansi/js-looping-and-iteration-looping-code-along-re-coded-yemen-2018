@@ -6,14 +6,11 @@ function printBadges(employee){
   return employee;
   
 }
-function maybeTrue() {
-  return Math.random() >= 0.5;
- 
-}
+
 
 function tailsNeverFails(){
   let tails=0;
-  while(maybeTrue()){
+  while(Math.random() >= 0.5){
    
     tails++;
   }
